@@ -13,13 +13,14 @@ include 'config.php';
     <?php else: ?>
         <link rel="stylesheet" href="css/bootstrap.min.css">
     <?php endif; ?>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header>
     <nav class="navbar navbar-expand-md navbar-dark bg-primary">
         <div class="d-flex w-50">
-            <a class="navbar-brand mr-0" href="#">FOREX <> BAR</a>
+            <a class="navbar-brand mr-0" href="/">FOREX <img alt="" src="img/logo.png"> BAR</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,6 +32,10 @@ include 'config.php';
                 </li>
             </ul>
         </div>
-        <span class="navbar-text small text-truncate mt-1 w-50 text-right">Присоединиться</span>
+        <span class="navbar-text small text-truncate mt-1 text-right">
+            <div class="d-flex align-items-center">
+            <i class="fa fa-telegram icon"></i>Присоединиться
+            </div>
+        </span>
     </nav>
 </header>
