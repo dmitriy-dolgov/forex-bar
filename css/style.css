@@ -35,6 +35,7 @@ body {
     color: white !important;
     opacity: 1;
     text-transform: uppercase;
+    margin-top: 0 !important;
 }
 
 .navbar-text .icon {
@@ -46,5 +47,10 @@ body {
     height: 62px;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.to-connect {
+    display: flex !important;
     align-items: center;
 }
