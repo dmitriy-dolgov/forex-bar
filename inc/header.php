@@ -17,25 +17,31 @@ include 'config.php';
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-        <div class="d-flex w-50">
-            <a class="navbar-brand mr-0" href="/">FOREX <img alt="" src="img/logo.png"> BAR</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-        <div class="navbar-collapse collapse justify-content-center" id="collapsingNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">BIDLeveL</a>
-                </li>
-            </ul>
-        </div>
-        <span class="navbar-text small text-truncate mt-1 text-right">
-            <div class="d-flex align-items-center">
-            <i class="fa fa-telegram icon"></i>Присоединиться
+<div id="page-container">
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+            <div class="d-flex w-50">
+                <a class="navbar-brand mr-0" href="/">FOREX <img alt="" src="img/logo.png"> BAR</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse justify-content-center" id="collapsingNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">BIDLeveL</a>
+                    </li>
+                </ul>
+            </div>
+            <span class="navbar-text small text-truncate mt-1 w-50 text-right">
+            <div class="d-flex align-items-center flex-row-reverse">
+                <table>
+                    <tr>
+                        <td><i class="fa fa-telegram icon"></i></td>
+                        <td style="padding-bottom: 2px">Присоединиться</td>
+                    </tr>
+                </table>
             </div>
         </span>
-    </nav>
-</header>
+        </nav>
+    </header>
