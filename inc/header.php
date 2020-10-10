@@ -15,6 +15,7 @@ include 'config.php';
     <?php endif; ?>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="/favicon.png">
 </head>
 <body class="d-flex flex-column min-vh-100">
     <header>

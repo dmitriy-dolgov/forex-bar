@@ -1,6 +1,8 @@
-    <footer class="mt-auto">
-        forex-bar@mail.com
-    </footer>
+<footer class="mt-auto">
+    <div id="footer">
+        <a href="mailto:<?= MAIN_MAIL ?>"><?= MAIN_MAIL ?></a>
+    </div>
+</footer>
 </div>
 <?php if (IS_INTERNET): ?>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

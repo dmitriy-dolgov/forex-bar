@@ -1,12 +1,16 @@
 html,
 body {
     height: 100%;
-    background-color: rgb(204, 204, 184);
+    background-color: #EFF3F6;
 }
 
 .main {
     background-color: white;
     margin-top: 30px;
+
+    -moz-box-shadow:0 0 10px #000;
+    -webkit-box-shadow:0 0 10px #000;
+    box-shadow:0 0 10px #000;
 }
 
 .navbar-brand {
@@ -14,8 +18,8 @@ body {
 }
 
 .navbar-brand img {
-    margin: 0 7px;
-    height: 30px;
+    margin: 0 3px 0 0;
+    height: 40px;
 }
 
 .navbar {
@@ -36,4 +40,11 @@ body {
 .navbar-text .icon {
     font-size: 23px;
     margin-right: 10px;
+}
+
+#footer {
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
