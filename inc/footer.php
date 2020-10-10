@@ -1,4 +1,4 @@
-    <footer id="footer">
+    <footer class="mt-auto">
         forex-bar@mail.com
     </footer>
 </div>

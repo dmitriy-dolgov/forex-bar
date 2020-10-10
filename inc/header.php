@@ -16,8 +16,7 @@ include 'config.php';
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-<div id="page-container">
+<body class="d-flex flex-column min-vh-100">
     <header>
         <nav class="navbar navbar-expand-md navbar-dark bg-primary">
             <div class="d-flex w-50">

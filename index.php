@@ -2,7 +2,7 @@
 include 'inc/header.php';
 ?>
 
-    <main id="content-wrap">
+    <main class="container h-100 main">
         FOREX !!!
     </main>
 
